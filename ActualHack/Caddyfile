@@ -1,0 +1,8 @@
+http://simplesource.co {
+    reverse_proxy 127.0.0.1:5000
+}
+
+# Optionally bind to IPv4 and IPv6
+http://0.0.0.0:80 {
+    reverse_proxy 127.0.0.1:5000
+}
